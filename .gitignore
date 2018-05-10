@@ -259,3 +259,7 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/Tweescord/tokens.txt
+/Tweescord/discord.txt
+/Tweescord/twitter.txt
+/Tweescord/discord.json

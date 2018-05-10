@@ -5,4 +5,19 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="DSharpPlus" Version="3.2.3" />
+    <PackageReference Include="DSharpPlus.WebSocket.WebSocket4NetCore" Version="3.2.3" />
+    <PackageReference Include="TweetinviAPI" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="discord.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="twitter.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
